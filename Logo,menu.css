@@ -1,0 +1,68 @@
+* {
+
+/* margin: 0px; */
+
+padding: 0px;
+}
+
+#logo {
+	margin-left: 35px;
+	margin-top: 25px;
+	border-radius: 50px;
+	border: solid 1px green;
+	float: left;
+	
+}
+
+
+
+#Menu li {
+	justify-content: space-between;
+	display: inline-table;
+	padding: 12px 20px;
+	margin-top: 75px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 50px;
+	transition: .5s background-color;
+
+}
+
+#Menu li:hover {
+	background-color: lightgreen;
+}
+
+#Menu a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Responsive Youtube */
+.post-body iframe {
+	width: 100% !important;
+}
+
+@media screen and (max-width:960px) {
+	.post-body iframe {
+		max-height: 90%
+	}
+}
+
+@media screen and (max-width:768px) {
+	.post-body iframe {
+		max-height: 75%
+	}
+}
+
+@media screen and (max-width:600px) {
+	.post-body iframe {
+		max-height: 60%
+	}
+}
+
+@media screen and (max-width:480px) {
+	.post-body iframe {
+		height: auto !important;
+		max-height: auto !important
+	}
+}

@@ -1,0 +1,115 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Responsive Youtube */
+.post-body iframe {
+    width: 100% !important;
+}
+
+@media screen and (max-width:960px) {
+    .post-body iframe {
+        max-height: 90%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .post-body iframe {
+        max-height: 73%
+    }
+}
+
+@media screen and (max-width:600px) {
+    .post-body iframe {
+        max-height: 60%
+    }
+}
+
+@media screen and (max-width:480px) {
+    .post-body iframe {
+        height: auto !important;
+        max-height: auto !important
+    }
+}
+
+#contact-us h1{
+    margin-top: 1%;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 60px;
+    font-family: 'Combo', cursive;
+} 
+#MoreDetails{
+    margin-bottom: 5%;
+    }
+    #MoreDetails iframe {
+        padding: 20px;
+
+    }
+    
+    div.Details {
+        display: inline-block;
+        width: 100px;
+        height: 70px;
+        margin-right: 10%;
+        margin-left: 10%;
+    
+    }
+    
+    div.show p {
+        color: #000;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-align: center;
+    
+    }
+    
+    div.show a {
+        color: #000;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-decoration: none;
+        text-align: center;
+    }
+    #circle {
+        width: 70px;
+        height: 30px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-bottom: 0px;
+        background-color: rgb(78, 76, 76);
+        transition: .4s width, .4s font-size;
+    }
+    
+    
+    
+    #circle a {
+        font-weight: bolder;
+        color: #28a15a;
+        font-size: 35px;
+        width: 60px;
+        height: 30px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-bottom: 0px;
+        background-color: rgb(78, 76, 76);
+    }
+    
+    #Footer {
+        background-color: rgb(78, 76, 76);
+        height: 80px;
+        width: 100%;
+    }
+    
+    .Social {
+        float: right;
+        padding: 16px;
+    }
+    #Footer p{
+        font-size: larger;
+        color: #F5B041;
+        padding: 16px;
+        text-align: left;
+    }

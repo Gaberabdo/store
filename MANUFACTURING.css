@@ -1,0 +1,310 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Responsive Youtube */
+.post-body iframe {
+    width: 100% !important;
+}
+
+@media screen and (max-width:960px) {
+    .post-body iframe {
+        max-height: 90%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .post-body iframe {
+        max-height: 73%
+    }
+}
+
+@media screen and (max-width:600px) {
+    .post-body iframe {
+        max-height: 60%
+    }
+}
+
+@media screen and (max-width:480px) {
+    .post-body iframe {
+        height: auto !important;
+        max-height: auto !important
+    }
+}
+
+#MANUFACTURING1 h1 {
+    color: green;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    margin-top: 5%;
+    padding: 12px;
+    transition: .5s color;
+}
+
+#MANUFACTURING1 h1:hover {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    margin-top: 5%;
+    padding: 12px;
+}
+
+#MANUFACTURING1 h3 {
+    font-family: 'Lato', sans-serif;
+
+    color: black;
+    font-size: 40px;
+    margin-top: 3%;
+    padding: 12px;
+}
+
+#MANUFACTURING1 img {
+    font-family: 'Lato', sans-serif;
+    margin-top: 3%;
+    padding: 12px;
+    width: 300px;
+}
+
+#MANUFACTURING1 p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 500px;
+    font-weight: 100;
+    color: black;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#MANUFACTURING2,
+#MANUFACTURING3 {
+    background-color: rgb(240, 240, 240);
+}
+
+#MANUFACTURING2 p {
+    margin-top: 1%;
+    width: 500px;
+    font-weight: 100;
+    color: black;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+div.Details {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+
+}
+
+div.show p {
+    color: #000;
+    margin-bottom: 3%;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#Lap img {
+    border-radius: 12px;
+    margin: 5%;
+}
+
+#MANUFACTURING4 p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 500px;
+    font-weight: 100;
+    color: black;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#MANUFACTURING4 h2 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 40px;
+    margin-top: 2%;
+    padding: 12px;
+}
+
+#MANUFACTURING4 img {
+    margin-bottom: -1%;
+    margin-top: 4%;
+}
+
+#MANUFACTURING5{
+    height:950px;
+    background-color: rgb(240, 240, 240);
+
+}
+.Lap1 {
+    position: absolute;
+    border-radius: 12px;
+    margin-left: 36%;
+}
+
+.Lap2 {
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 70%;
+    border-radius: 12px;
+    margin-right: 5%;
+}
+
+.Lap3 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 12px;
+    margin-right: 5%;
+}
+
+#MANUFACTURING5 h2 {
+    font-family: 'Lato', sans-serif;
+    color: green;
+    font-size: 40px;
+    margin-top: 2%;
+    padding: 12px;
+}
+
+#MANUFACTURING5 p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 500px;
+    font-weight: 100;
+    color: black;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#PhysicalLap {
+    text-align: center;
+    float: right;
+    margin-bottom: 4%;
+}
+
+#PhysicalLap h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: green;
+    font-size: 20px;
+    margin-top: 2%;
+    padding: 12px;
+}
+
+#MicrobiologyLap h3 {
+    font-family: 'Lato', sans-serif;
+    color: green;
+    font-size: 25px;
+    margin-top: 2%;
+    padding: 12px;
+    float: left;
+    font-weight: bolder;
+}
+
+#MicrobiologyLap {
+    text-align: center;
+    width: 90px;
+    margin:0%;
+    margin-top: 5%;
+}
+
+
+#ChemicalLap
+{
+    float: left;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 17%;
+}
+#ChemicalLap h3{
+    font-family: 'Lato', sans-serif;
+    color: green;
+    font-size: 25px;
+    padding: 12px;
+    font-weight: bolder;
+}
+#OurLogistics{
+    margin-bottom: 4%;
+    height: 300px;
+    width: 100%;
+}
+
+#OurLogistics img{
+    margin-left: 8%;
+    padding: 20px;
+    float: right;
+}
+#OurLogistics h1{
+    padding: 20px;
+    text-align: right;
+    color: green;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+}
+#OurLogistics pre{
+    border-bottom:1px solid black ;
+    border-top:1px solid black ;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom-right-radius:1px ;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding: 20px;
+    font-weight: 100;
+    color: black;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+}
+#circle {
+    width: 70px;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(78, 76, 76);
+    transition: .4s width, .4s font-size;
+}
+
+
+
+#circle a {
+    font-weight: bolder;
+    color: #28a15a;
+    font-size: 35px;
+    width: 60px;
+    height: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(78, 76, 76);
+}
+
+#Footer {
+    background-color: rgb(78, 76, 76);
+    height: 80px;
+    width: 100%;
+}
+
+.Social {
+    float: right;
+    padding: 16px;
+}
+
+#Footer p {
+    font-size: larger;
+    color: #F5B041;
+    padding: 16px;
+    text-align: left;
+}
